@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>name</td>
+            <td><input type="text" name="c_name" required></td>
+        </tr>
+        
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="c_mail" required></td>
+        </tr>
+
+        <tr>
+            <td>phone</td>
+            <td><input type="tel" name="c_tel" required></td>
+        </tr>
+
+        <tr>
+            <td>Subject</td>
+            <td><input type="text" name="c_sub" required></td>
+        </tr>
+
+        <tr>
+            <td>Message:</td>
+            <td>
+                <textarea name="c_mes" cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>DOB:</td>
+            <td>
+                <input type="date" name="dob" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="radio" name="r_reg" value="male"> Male <br>
+                <input type="checkbox" name="r_reg" value="Female"> Female <br>
+                <input type="checkbox" name="r_reg" value="other"> other
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <select name="r_country" required>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="USA">China</option>
+                </select>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input type="submit" name="r_reg" value=register></td>
+        </tr>
+
+    </table>
+</body>
+</html>
